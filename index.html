@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!-- Additional CSS must be placed after Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Liberati Swimwear</title>
+</head>
+
+<body>
+
+    <header class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-3 col-md-2 align-self-center">
+                    <img src="img/logo.png" class="img-fluid" />
+                </div>
+
+                <div class="col">
+                    <h1>Liberati</h1>
+                    <h2>luxury at your fingertips</h2>
+                </div>
+                <div class="col col-md-4 col-xl-2 col-xs-12 mt-4 btn-lg">
+                    <a href="#reserveForm" class="btn btn-light text-nowrap fa fa-shopping-cart" data-toggle="tooltip"
+                        data-placement="bottom" data-html="true" 
+                        title="Sign in in order to earn<br/><strong> Rewards</strong> with every purchase!">
+                        <strong>Your Cart</strong></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand active" href="#"><img src="img/logo1.png" height="30" width="30" /></a>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#nucampNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nucampNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i> Home</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="aboutus.html"><i class="fa fa-info fa-lg"></i>
+                            About</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-list fa-lg"></i> Sites</a></li> -->
+                    <li class="nav-item"><a class="nav-link" href="contactus.html"><i
+                                class="fa fa-address-card fa-lg"></i> Contact</a></li>
+                </ul>
+                <span class="navbar-text ml-auto">
+                    <a role="button" data-toggle="modal" data-target="#loginModal">
+                        <i class="fa fa-sign-in"></i>Login
+                    </a>
+                </span>
+            </div>
+        </div>
+    </nav>
+
+    <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Login</h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-12">
+                                    <label class="sr-only" for="loginEmail">Email address</label>
+                                    <input type="email" class="form-control form-control-sm" id="loginEmail"
+                                        placeholder="Username">
+                                </div>
+                                <div class="form-group col-12">
+                                    <label class="sr-only" for="loginPassword">Password</label>
+                                    <input type="password" class="form-control form-control-sm" id="loginPassword"
+                                        placeholder="Password">
+                                </div>
+                                <div class="col">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox">
+                                        <label class="form-check-label">Remember me</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row ">
+                                <div class="col-9"></div>
+                                <button type="submit"
+                                    class="btn btn-large btn-primary btn-sm col-3 d-flex align-self-center">
+                                    <p class="mx-auto align-items-center my-auto"><strong>Sign in</strong></p>
+                                </button>
+                            </div>
+                            <div>
+                                <p id="signUp">Don't have an account? <a class="text-primary" href="#aboutUs.html">Sign
+                                        up</a></p>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- <div class="col col-12 align-items-center align-self-center">
+         <center><img src="img/cubemodel2.jpg" class="img-fluid" alt="Responsive image"
+            height="10000"
+            width="10000"></center>
+    </div> -->
+
+    <div class="col col-12 d-flex justify-content-center mx-auto" id="accordion">
+        <div class="card col-4">
+            <div role="tab" class="card-header">
+                <h4 class="d-flex justify-content-center mx-auto">
+                    <a data-target="#git">
+                        Men's 3D Cube Brief
+                    </a>
+                </h4>
+                <div id="git" data-parent="#accordion">
+                    <div class="card-body d-flex justify-content-center mx-auto">
+                        <div class="js-merch-stash-check-listing v2-listing-card 
+                                wt-position-relative
+                                wt-grid__item-xs-6 wt-flex-shrink-xs-1
+                                wt-grid__item-xl-3
+                                wt-grid__item-lg-4
+                                wt-grid__item-md-4" data-palette-listing-id="1155342821" data-shop-id="29689952"
+                            data-listing-id="1155342821" data-page-type="shop_collage_cards_experiment"
+                            data-behat-listing-card="" data-listing-card-v2="">
+                            <a class="listing-link wt-display-inline-block wt-transparent-card"
+                                data-listing-id="1155342821" data-palette-listing-image=""
+                                href="https://www.etsy.com/listing/1155342821/3d-cube-swimbrief?click_key=136d7b83f4cc6e9c15c26fae5122d6466d2d0cb2%3A1155342821&amp;click_sum=713ac74f&amp;ref=shop_home_feat_1&amp;frs=1"
+                                target="etsy.1155342821" title="3D Cube Swimbrief">
+                                <div class="v2-listing-card__img wt-position-relative listing-card-image-no-shadow">
+                                    <div class="placeholder placeholder-landscape wt-mb-xs-1">
+                                        <div
+                                            class="placeholder-content placeholder placeholder-landscape vertically-centered-placeholder">
+                                            <div class="height-placeholder">
+                                                <img data-listing-card-listing-image=""
+                                                    class="wt-width-full wt-height-full wt-display-block wt-position-absolute shop_home_feat_1"
+                                                    alt="3D Cube Swimbrief"
+                                                    src="https://i.etsystatic.com/29689952/r/il/0d7da2/3578073602/il_340x270.3578073602_8bge.jpg"
+                                                    srcset="https://i.etsystatic.com/29689952/r/il/0d7da2/3578073602/il_340x270.3578073602_8bge.jpg 340w,https://i.etsystatic.com/29689952/r/il/0d7da2/3578073602/il_680x540.3578073602_8bge.jpg 680w"
+                                                    sizes="(max-width: 479px) 50vw, 25vw">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="v2-listing-card__info">
+                                    <h3 class="wt-text-caption v2-listing-card__title
+                wt-text-truncate">
+                                        3D Cube Swimbrief
+                                    </h3>
+
+
+                                    <div class="n-listing-card__price  wt-display-flex-xs wt-align-items-center wt-width-full wt-flex-wrap wt-width-full
+             wt-pr-xs-1 wt-text-title-01">
+
+
+                                        <p class="wt-pr-xs-1 wt-text-title-01">
+                                            <span class="currency-symbol">$</span><span
+                                                class="currency-value">23.00</span>
+                                        </p>
+                                    </div>
+
+                                    <div class="promotion-badge-line">
+                                        <p class="wt-text-truncate wt-text-caption-title">
+                                            <span class="wt-badge wt-badge--small wt-badge--sale-01">
+                                                FREE shipping
+                                            </span>
+                                        </p>
+                                    </div>
+
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div role="tab" class="card-header">
+                    <h4>
+                        <a class="d-flex justify-content-center mx-auto" data-target="#mongo">Vintage Mens Brief</a>
+                    </h4>
+                    <div id="mongo" data-parent="#accordion">
+                        <div class="card-body d-flex justify-content-center mx-auto">
+                            <p class="d-none d-sm-block">
+                            <div class="js-merch-stash-check-listing v2-listing-card 
+                            wt-position-relative
+                                 wt-grid__item-xs-6 wt-flex-shrink-xs-1
+                                 wt-grid__item-xl-3
+                                 wt-grid__item-lg-4
+                                 wt-grid__item-md-4
+                             
+                             listing-card-experimental-style" data-palette-listing-id="1155319477"
+                                data-shop-id="29689952" data-listing-id="1155319477"
+                                data-page-type="shop_collage_cards_experiment" data-behat-listing-card=""
+                                data-listing-card-v2="">
+                                <a class="listing-link wt-display-inline-block
+                                 wt-transparent-card" data-listing-id="1155319477" data-palette-listing-image=""
+                                    href="https://www.etsy.com/listing/1155319477/vintage-mens-swim-brief?click_key=5172c254f2363c581724907e9b6b49919bbacf2d%3A1155319477&amp;click_sum=470cb594&amp;ref=shop_home_feat_2&amp;frs=1"
+                                    target="etsy.1155319477" title="Vintage Mens Swim brief">
+                                    <div class="v2-listing-card__img wt-position-relative
+                             listing-card-image-no-shadow">
+                                        <div class="placeholder placeholder-landscape wt-mb-xs-1">
+                                            <div
+                                                class="placeholder-content placeholder placeholder-landscape vertically-centered-placeholder">
+                                                <div class="height-placeholder">
+                                                    <img data-listing-card-listing-image=""
+                                                        class="wt-width-full wt-height-full wt-display-block wt-position-absolute shop_home_feat_2"
+                                                        alt="Vintage Mens Swim brief"
+                                                        src="https://i.etsystatic.com/29689952/r/il/6afa91/3625620241/il_340x270.3625620241_fz6v.jpg"
+                                                        srcset="https://i.etsystatic.com/29689952/r/il/6afa91/3625620241/il_340x270.3625620241_fz6v.jpg 340w,https://i.etsystatic.com/29689952/r/il/6afa91/3625620241/il_680x540.3625620241_fz6v.jpg 680w"
+                                                        sizes="(max-width: 479px) 50vw, 25vw">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="v2-listing-card__info">
+                                            <h3 class="wt-text-caption v2-listing-card__title wt-text-truncate"> Vintage
+                                                Mens Swim brief
+                                            </h3>
+                                            <div
+                                                class="n-listing-card__price  wt-display-flex-xs wt-align-items-center wt-width-full wt-flex-wrap wt-width-full wt-pr-xs-1 wt-text-title-01">
+                                                <p class="wt-pr-xs-1 wt-text-title-01">
+                                                    <span class="currency-symbol">$</span><span
+                                                        class="currency-value">23.00</span>
+                                                </p>
+                                            </div>
+
+                                            <div class="promotion-badge-line">
+                                                <p class="wt-text-truncate wt-text-caption-title">
+                                                    <span class="wt-badge wt-badge--small wt-badge--sale-01">
+                                                        FREE shipping
+                                                    </span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div role="tab" class="card-header">
+                    <h4>
+                        <a data-target="#node">
+                            Vintage Rose Board Shorts</a>
+                    </h4 class="d-flex justify-content-center mx-auto">
+                    <div id="node" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="js-merch-stash-check-listing v2-listing-card 
+                                wt-position-relative
+                                wt-grid__item-xs-6 wt-flex-shrink-xs-1
+                                wt-grid__item-xl-3
+                                wt-grid__item-lg-4
+                                wt-grid__item-md-4
+                                isting-card-experimental-style" data-palette-listing-id="1100003727"
+                                data-shop-id="29689952" data-listing-id="1100003727"
+                                data-page-type="shop_collage_cards_experiment" data-behat-listing-card=""
+                                data-listing-card-v2="">
+                                <a class="listing-link wt-display-inline-block wt-transparent-card"
+                                    data-listing-id="1100003727" data-palette-listing-image=""
+                                    href="https://www.etsy.com/listing/1100003727/high-end-vintage-diamond-rose-board-swim?click_key=83bfb2903df74f258e510ca9002bc6b20d67305c%3A1100003727&amp;click_sum=830b752f&amp;ref=shop_home_feat_3&amp;frs=1"
+                                    target="etsy.1100003727" title="High End Vintage Diamond Rose Board Swim shorts">
+                                    <div class="v2-listing-card__img wt-position-relative listing-card-image-no-shadow">
+                                        <div class="placeholder placeholder-landscape wt-mb-xs-1 tabindex=" 0">
+                                            <div
+                                                class="placeholder-content placeholder placeholder-landscape vertically-centered-placeholder">
+                                                <div class="height-placeholder">
+                                                    <img data-listing-card-listing-image=""
+                                                        class="wt-width-full wt-height-full wt-display-block wt-position-absolute shop_home_feat_3"
+                                                        alt="High End Vintage Diamond Rose Board Swim shorts"
+                                                        src="https://i.etsystatic.com/29689952/r/il/192520/3782160949/il_340x270.3782160949_jzw0.jpg"
+                                                        srcset="https://i.etsystatic.com/29689952/r/il/192520/3782160949/il_340x270.3782160949_jzw0.jpg 340w,https://i.etsystatic.com/29689952/r/il/192520/3782160949/il_680x540.3782160949_jzw0.jpg 680w"
+                                                        sizes="(max-width: 479px) 50vw, 25vw">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+
+
+                        <div class="v2-listing-card__info">
+                            <h3 class="wt-text-caption v2-listing-card__title wt-text-truncate">
+                                High End Vintage Diamond Rose Board Swim shorts
+                            </h3>
+                            <div class="n-listing-card__price  wt-display-flex-xs wt-align-items-center wt-width-full wt-flex-wrap wt-width-full wt-pr-xs-1 wt-text-title-01">
+                                <p class="wt-pr-xs-1 wt-text-title-01">
+                                    <span class="currency-symbol">$</span><span class="currency-value">23.00</span>
+                                </p>
+                            </div>
+
+                            <div class="promotion-badge-line">
+                                <p class="wt-text-truncate wt-text-caption-title">
+                                    <span class="wt-badge wt-badge--small wt-badge--sale-01">
+                                        FREE shipping
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row row-content align-items-center">
+                <div class="col-4 col-sm-2 offset-1">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="aboutus.html">About</a></li>
+                        <li><a href="contactus.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-5 text-center">
+                    <h5>Social</h5>
+                    <a class="btn btn-social-icon btn- facebook" href="https://www.etsy.com/shop/LiberatiSwimwear"
+                        target=”_blank”><i class="fa fa-etsy"></i></a>
+                    <a class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/liberati_swimwear/"
+                        target=”_blank”><i class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn- facebook" href="https://www.facebook.com/LiberatiSwimwear/"
+                        target=”_blank”><i class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/" target=”_blank”><i
+                            class="fa fa-twitter"></i></a>
+                    
+                </div>
+                <div class="col-sm-4 text-center">
+                    <i class="fa fa-phone fa-lg text-primary"></i> 1-206-555-1234<br />
+                    <i class="fa fa-envelope fa-lg text-primary"></i> service@liberati.com
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+</body>
+
+</html>
